@@ -13,7 +13,7 @@ const About = () => {
             </motion.div>
             <motion.div variants={fadeInUp} className='flex gap-8 max-sm:flex-col'>
                 <motion.div className='flex justify-center items-center'>
-                    <motion.img className='object-fill ' src={assets.user_image} alt="" />
+                    <motion.img className='w-full h-full object-cover' src={assets.user_image} alt="" />
                 </motion.div>
                 <motion.div variants={fadeInUp} className='flex flex-col gap-6'>
                     <p className=' text-sm max-sm:text-center whitespace-break-spaces'>

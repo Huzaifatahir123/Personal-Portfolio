@@ -8,7 +8,9 @@ const ContactUs = () => {
       const [result, setResult] = React.useState("Submit");
 
   const onSubmit = async (event) => {
-    try{   event.preventDefault();
+    try
+    {   
+      event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
